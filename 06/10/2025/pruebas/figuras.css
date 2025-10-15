@@ -1,0 +1,22 @@
+
+
+body {
+    font-family:  'Arial Narrow';
+    background-color:  rgb(170, 170, 170);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0 ;
+    gap: .3em;
+}
+
+button{
+    align-self: center;
+}
+label {
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman',;
+    font-weight: bolder;
+}

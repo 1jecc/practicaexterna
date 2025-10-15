@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="figuras.css">
+</head>
+<body>
+    <form action="">
+        <label for="valor 1">valor1: </label>
+        <input type="text" name="valor1" id="valor1">
+        <label for="valor 2">valor2:</label>
+        <input type="text" name="valor2" id="valor2">
+        <label for="figura">selecciona la figura para sacar el area</label>
+        <select name="figuras" id="figuras">
+            <option value="Triangulo">Triangulo</option>
+            <option value="Rectangulo">Rectangulo</option>
+            <option value="cuadrado">cuadrado</option>
+        </select>
+        <label for="resultado">resultado</label>
+        <input readonly type="text" name="resultado" id="resultado">
+
+        <button id="botoncal">Calcular</button>
+        <script src="areas.js"></script>
+    </form>
+</body>
+</html>
