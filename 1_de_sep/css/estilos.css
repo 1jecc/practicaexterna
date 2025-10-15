@@ -52,3 +52,21 @@ aside.bonito {
     color: blueviolet;
 
 }
+
+
+
+
+#s3 > h2 {
+    background-color: chocolate;
+}
+
+
+#s3 footer + h2 {
+    border: 1px solid black;
+    box-shadow: 3px 3px 8px gray;
+}
+
+#s4 header h2 {
+    color: white;
+    background-color: black;
+}
